@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@wdio/cli": "^8.1.0"
+  },
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.1.0",
+    "@wdio/mocha-framework": "^8.1.0",
+    "@wdio/spec-reporter": "^8.1.0",
+    "chromedriver": "^108.0.0",
+    "wdio-chromedriver-service": "^8.0.1",
+    "wdio-wait-for": "^3.0.1"
+  }
+}
